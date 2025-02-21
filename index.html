@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save $150/mo on Rent</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #28a745;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 25px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #218838;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px 0;
+            width: 80%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Save $150/mo on Rent!</h1>
+        <p>Sign in and join thousands of renters leveraging collective bargaining to save on rent. SAVE BIG NOW! DON'T FALL PRAY TO MARKET RATE.</p>
+        
+        <div class="form-container">
+            <h2>Sign Up Now</h2>
+            <p>Enter your details to join the movement.</p>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <input type="text" name="first_name" placeholder="First Name" required><br>
+                <input type="text" name="last_name" placeholder="Last Name" required><br>
+                <input type="tel" name="phone" placeholder="Phone Number" required><br>
+                <input type="email" name="email" placeholder="Email Address" required><br>
+                <input type="text" name="zip_code" placeholder="Zip Code" required><br>
+                <label for="start_date">Start Date:</label>
+                <input type="date" name="start_date" required><br>
+                <label for="end_date">End Date:</label>
+                <input type="date" name="end_date" required><br>
+                <button type="submit">Join Now</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
